@@ -1,1 +1,2 @@
-print("i think i got it")
+print("I understand now")
+print("cool beans")
