@@ -25,10 +25,10 @@ def accountPage(username, password):
         #code for user choosing account options
         userchoice = input("Select a choice(1-6): ")
         if(userchoice == "1"):
-            amount = int(input("How much would you like to deposit: "))
+            amount = float(input("How much would you like to deposit: "))
             connector_test.Deposit(username, password, amount)
         elif(userchoice == "2"):
-            amount = int(input("How much would you like to widthdraw: "))
+            amount = float(input("How much would you like to widthdraw: "))
             connector_test.Withdraw(username, password, amount)
         elif(userchoice == "3"):
             connector_test.deleteAccount(username, password)
